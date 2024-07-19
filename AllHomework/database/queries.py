@@ -5,8 +5,8 @@ class Queries:
         name TEXT,
         instagram_username TEXT,
         visit_date INTEGER,
-        food_rating TEXT,
-        cleanliness_rating TEXT,
+        food_rating INTEGER,
+        cleanliness_rating INTEGER,
         extra_comments TEXT
     )
     """
