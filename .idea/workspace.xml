@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19452ca6-2f93-41b0-bfdc-4125bd8a85f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AllHomework/handlers/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AllHomework/images_2/blinchiki.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AllHomework/images_2/manty.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AllHomework/images_2/mohito.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AllHomework/images_2/pelmeni.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AllHomework/images_2/plov.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AllHomework/database/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllHomework/database/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AllHomework/database/queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllHomework/database/queries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AllHomework/handlers/dishes.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllHomework/handlers/dishes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AllHomework/handlers/review_dialog.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllHomework/handlers/review_dialog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AllHomework/handlers/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllHomework/handlers/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AllHomework/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllHomework/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TelegramBots/db.sqlite3" beforeDir="false" />
-    </list>
+    <list default="true" id="19452ca6-2f93-41b0-bfdc-4125bd8a85f8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
