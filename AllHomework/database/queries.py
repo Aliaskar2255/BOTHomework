@@ -34,10 +34,10 @@ class Queries:
 
     INSERT_INTO_DISHES = """
     INSERT OR IGNORE INTO dishes (title, price, photo, category_of_dishes_id) VALUES 
-    ('Плов', 320, 'AllHomework/images_2/plov.jpg', 2), 
-    ('Пельмени', 220, 'AllHomework/images_2/pelmeni.jpg', 3),
-    ('Мохито', 180, 'AllHomework/images_2/mohito.jpg', 1), 
-    ('Манты', 350, 'AllHomework/images_2/manty.jpg', 2)  
+    ('Плов', 320, 'E:\Project pyt\pythonMonth3\AllHomework\images_2\plov.jpg', 3), 
+    ('Пельмени', 220, 'E:\Project pyt\pythonMonth3\AllHomework\images_2\pelmeni.jpg', 2),
+    ('Мохито', 180, 'E:\Project pyt\pythonMonth3\AllHomework\images_2\mohito.jpg', 1), 
+    ('Манты', 350, 'E:\Project pyt\pythonMonth3\AllHomework\images_2\manty.jpg', 3)  
     """
 
 

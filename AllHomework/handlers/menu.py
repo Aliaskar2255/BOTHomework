@@ -11,8 +11,8 @@ async def menu(message: types.Message):
     inline_keyboard=[
             [
                 types.InlineKeyboardButton(text='Холодный напиток', callback_data='drinks'),
-                types.InlineKeyboardButton(text='Второе блюдо', callback_data='second'),
-                types.InlineKeyboardButton(text='Первое блюдо', callback_data='first')
+                types.InlineKeyboardButton(text='Первое блюдо', callback_data='first'),
+                types.InlineKeyboardButton(text='Второе блюдо', callback_data='second')
             ]
         ]
     )
@@ -33,4 +33,4 @@ async def dishes(call: types.CallbackQuery):
     for i in data:
         photo = FSInputFile(i[3])
         await call.message.answer_photo(photo=photo, caption=f'name: {i[1]}\n'
-                                                             f'price{i[2]}')
+                                                             f'price: {i[2]}')
