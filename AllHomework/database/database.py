@@ -27,4 +27,6 @@ class Database:
         with sqlite3.connect(self.path) as connect:
             result = connect.execute(query,params)
 
-            return result.fetchall()
+
+
+            # return result.fetchall()
