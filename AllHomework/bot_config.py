@@ -10,7 +10,7 @@ database = Database('db_cafe.sqlite3')
 debug=getenv('DEBUG', 0)
 if not debug:
     print('Бот запускается на сервере')
-    from aiogram.client.session.base import AiohttpSession
+    from aiogram.client.session.aiohttp import AiohttpSession
     session = AiohttpSession(proxy=getenv('PROXY'))
     bot = Bot(token=getenv("BOT_TOKEN"), session=session)
 else:
