@@ -24,8 +24,7 @@ async def ban_user(message: types.Message):
             until_date=timedelta(seconds=60)
         )
 
-
-@group_router.message()
+@group_router.message(lambda m:m.chat.id==int(group))
 async def filter_bad_words(message: types.Message):
     for word in BAD_WORDS:
         if word in message.text.lower():

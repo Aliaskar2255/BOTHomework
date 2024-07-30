@@ -5,6 +5,7 @@ from aiogram.types import FSInputFile
 
 menu_router = Router()
 
+
 @menu_router.message(Command('menu'))
 async def menu(message: types.Message):
     kb = types.InlineKeyboardMarkup(

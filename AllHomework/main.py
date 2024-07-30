@@ -12,8 +12,10 @@ from handlers.menu import menu_router
 from handlers.group import group_router
 from handlers.house_kg import house_router
 
+
 async def on_startup(bot: Bot):
     database.create_tables()
+
 
 async def main():
     # запуск бота
