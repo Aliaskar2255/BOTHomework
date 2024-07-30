@@ -1,7 +1,7 @@
 import asyncio
 import logging
 from aiogram import Bot
-from bot_config import bot, dp, database
+from AllHomework.bot_config import bot, dp, database
 from handlers.start import start_router
 from handlers.my_info import my_info_router
 from handlers.recipe import recipe_router

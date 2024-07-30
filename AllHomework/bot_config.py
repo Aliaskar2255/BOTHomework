@@ -3,6 +3,8 @@ from dotenv import load_dotenv
 from os import getenv
 from database.database import Database
 
+
+
 load_dotenv()
 database = Database('db_cafe.sqlite3')
 debug=getenv('DEBUG', 0)
